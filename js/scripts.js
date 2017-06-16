@@ -11,4 +11,9 @@ this.tally = randomNumber + this.tally;
 }
 
 
-//U
+//User interface
+$("document").ready(function() {
+  $("form#pig-dice").submit(event() {
+    event.preventDefault
+  }
+}
