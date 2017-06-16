@@ -19,5 +19,8 @@ $("document").ready(function() {
     var firstPlayer = $("input#player-1").val();
     var secondPlayer = $("input#player-2").val();
 
+     var newDice = new Dice (firstPlayer, secondPlayer);
+     
+
   }
 }
