@@ -15,5 +15,9 @@ this.tally = randomNumber + this.tally;
 $("document").ready(function() {
   $("form#pig-dice").submit(event() {
     event.preventDefault
+
+    var firstPlayer = $("input#player-1").val();
+    var secondPlayer = $("input#player-2").val();
+
   }
 }
