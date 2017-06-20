@@ -1,0 +1,21 @@
+player-2{
+  display: none;
+}
+
+#player-scores{
+  background-color: snow;
+  border-width: thick;
+  border-style: solid;
+  border-color: #333;
+}
+
+.container{
+  }
+
+
+
+.headtitle{
+  font-family: cursive;
+  font-size: 50px;
+  text-align: center;
+}
