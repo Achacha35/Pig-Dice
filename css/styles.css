@@ -3,16 +3,22 @@ player-2{
 }
 
 #player-scores{
-  background-color: #F5F5F5;
+  background-color: snow;
   border-width: thick;
   border-style: solid;
   border-color: #333;
 }
 
-.container-fluid{
+.container{
   background-color: skyblue;
 }
 
 .container-fluid{
   font-family: fantasy;
+}
+
+.headtitle{
+  font-family: cursive;
+  font-size: 50px;
+  text-align: center;
 }
