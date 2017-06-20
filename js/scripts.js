@@ -1,3 +1,6 @@
+//Business Logic//
+
+
 var player = function(userName, turnScore, totalScore) {
   this.userName = userName;
   this.turnScore = turnScore;
@@ -46,6 +49,8 @@ $("button#player-1-hold-click").click(function(event) {
     $("#player-2").show();
     $("#player-1").hide();
 });
+
+//User interface//
 
 $("button#player-2-roll-click").click(function(event) {
   event.preventDefault();
